@@ -1,0 +1,34 @@
+{
+  "name": "quizzically",
+  "version": "0.0.0",
+  "description": "quiz a CLI",
+  "main": "quizzically.js",
+  "module": "quizzically.es.js",
+  "repository": "https://github.com/open-sorcerers/quizzically",
+  "author": "brekk",
+  "license": "ISC",
+  "private": false,
+  "files": [
+    "quizzically.js",
+    "quizzically.es.js"
+  ],
+  "dependencies": {
+    "execa": "^5.0.0",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-destructuring": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "eslint": "^7.18.0",
+    "eslint-config-sorcerers": "^0.0.5",
+    "nps": "^5.10.0",
+    "phantomscript": "^0.0.4",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0",
+    "rollup": "^2.37.1"
+  }
+}
